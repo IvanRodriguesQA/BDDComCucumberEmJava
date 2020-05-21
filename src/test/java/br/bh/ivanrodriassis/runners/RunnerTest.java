@@ -35,9 +35,6 @@ public class RunnerTest {
 		driver.findElement(By.id("senha")).sendKeys("teste");
 		driver.findElement(By.tagName("button")).click();	
 		driver.findElement(By.linkText("reset")).click();
-		String texto = driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
-		Assert.assertEquals("Dados resetados com sucesso!", texto);		
-		
 		driver.quit();		
 	}
 }	

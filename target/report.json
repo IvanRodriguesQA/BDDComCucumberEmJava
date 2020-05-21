@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15667212607,
+              "duration": 12814895232,
               "status": "passed"
             },
             "line": 10,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 726645109,
+              "duration": 211843787,
               "status": "passed"
             },
             "line": 11,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 172171410,
+              "duration": 95872638,
               "status": "passed"
             },
             "line": 12,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 1954318060,
+              "duration": 1445798377,
               "status": "passed"
             },
             "line": 13,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 86968733,
+              "duration": 64057793,
               "status": "passed"
             },
             "line": 14,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 286917731,
+              "duration": 268231769,
               "status": "passed"
             },
             "line": 15,
@@ -107,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 710164523,
+              "duration": 572151809,
               "status": "passed"
             },
             "line": 16,
@@ -123,11 +123,20 @@
         "before": [
           {
             "result": {
-              "duration": 338389,
+              "duration": 311571,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.inicia()"
+              "location": "InserirContasSteps.inicio2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 164805,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicio()"
             }
           }
         ],
@@ -138,7 +147,16 @@
         "after": [
           {
             "result": {
-              "duration": 3158799707,
+              "duration": 126708397,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.sreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1780462022,
               "status": "passed"
             },
             "match": {
@@ -151,34 +169,41 @@
         "steps": [
           {
             "result": {
-              "duration": 216280868,
+              "duration": 90608601,
               "status": "passed"
             },
             "line": 19,
-            "name": "informo a conta \"\u003c\u003e\"",
+            "name": "informo a conta \"Conta de Teste\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\u003c\u003e",
+                  "val": "Conta de Teste",
                   "offset": 17
                 }
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 472358450,
+              "status": "passed"
             },
             "line": 20,
             "name": "seleciono salvar",
-            "match": {},
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
             "keyword": "E "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 39182349,
+              "status": "passed"
             },
             "line": 21,
             "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
@@ -213,7 +238,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15332876623,
+              "duration": 10206181877,
               "status": "passed"
             },
             "line": 10,
@@ -225,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 454584284,
+              "duration": 142623865,
               "status": "passed"
             },
             "line": 11,
@@ -243,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 925787631,
+              "duration": 935180101,
               "status": "passed"
             },
             "line": 12,
@@ -261,7 +286,7 @@
           },
           {
             "result": {
-              "duration": 858193826,
+              "duration": 796520841,
               "status": "passed"
             },
             "line": 13,
@@ -273,7 +298,7 @@
           },
           {
             "result": {
-              "duration": 72709126,
+              "duration": 75074431,
               "status": "passed"
             },
             "line": 14,
@@ -285,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 270106071,
+              "duration": 259457076,
               "status": "passed"
             },
             "line": 15,
@@ -297,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 709170812,
+              "duration": 427407897,
               "status": "passed"
             },
             "line": 16,
@@ -313,11 +338,20 @@
         "before": [
           {
             "result": {
-              "duration": 153104,
+              "duration": 141401,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.inicia()"
+              "location": "InserirContasSteps.inicio2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142376,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicio()"
             }
           }
         ],
@@ -328,7 +362,16 @@
         "after": [
           {
             "result": {
-              "duration": 2099130722,
+              "duration": 97353452,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.sreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1990012180,
               "status": "passed"
             },
             "match": {
@@ -341,34 +384,41 @@
         "steps": [
           {
             "result": {
-              "duration": 180015779,
+              "duration": 74114364,
               "status": "passed"
             },
             "line": 19,
-            "name": "informo a conta \"\u003c\u003e\"",
+            "name": "informo a conta \"\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\u003c\u003e",
+                  "val": "",
                   "offset": 17
                 }
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 413067836,
+              "status": "passed"
             },
             "line": 20,
             "name": "seleciono salvar",
-            "match": {},
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
             "keyword": "E "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 45976933,
+              "status": "passed"
             },
             "line": 21,
             "name": "recebo a mensagem \"Informe o nome da conta\"",
@@ -403,7 +453,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14746001996,
+              "duration": 10749732556,
               "status": "passed"
             },
             "line": 10,
@@ -415,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 205216934,
+              "duration": 175796651,
               "status": "passed"
             },
             "line": 11,
@@ -433,7 +483,7 @@
           },
           {
             "result": {
-              "duration": 754743045,
+              "duration": 913009325,
               "status": "passed"
             },
             "line": 12,
@@ -451,7 +501,7 @@
           },
           {
             "result": {
-              "duration": 833962976,
+              "duration": 839461543,
               "status": "passed"
             },
             "line": 13,
@@ -463,7 +513,7 @@
           },
           {
             "result": {
-              "duration": 82909048,
+              "duration": 65397206,
               "status": "passed"
             },
             "line": 14,
@@ -475,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 277005487,
+              "duration": 267744666,
               "status": "passed"
             },
             "line": 15,
@@ -487,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 677283804,
+              "duration": 479360748,
               "status": "passed"
             },
             "line": 16,
@@ -503,11 +553,20 @@
         "before": [
           {
             "result": {
-              "duration": 109708,
+              "duration": 162367,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.inicia()"
+              "location": "InserirContasSteps.inicio2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 117022,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicio()"
             }
           }
         ],
@@ -518,7 +577,16 @@
         "after": [
           {
             "result": {
-              "duration": 2107790344,
+              "duration": 115780502,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.sreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1664890697,
               "status": "passed"
             },
             "match": {
@@ -531,34 +599,41 @@
         "steps": [
           {
             "result": {
-              "duration": 95198299,
+              "duration": 82224469,
               "status": "passed"
             },
             "line": 19,
-            "name": "informo a conta \"\u003c\u003e\"",
+            "name": "informo a conta \"Conta mesmo nome\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\u003c\u003e",
+                  "val": "Conta mesmo nome",
                   "offset": 17
                 }
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 451346678,
+              "status": "passed"
             },
             "line": 20,
             "name": "seleciono salvar",
-            "match": {},
+            "match": {
+              "location": "InserirContasSteps.selecionoSalvar()"
+            },
             "keyword": "E "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 35313312,
+              "status": "passed"
             },
             "line": 21,
             "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",

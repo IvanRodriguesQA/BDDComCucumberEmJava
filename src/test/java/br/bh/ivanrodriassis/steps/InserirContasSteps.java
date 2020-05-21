@@ -1,10 +1,17 @@
 package br.bh.ivanrodriassis.steps;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.pt.Dado;
@@ -54,10 +61,10 @@ public class InserirContasSteps {
 
 	@Quando("^informo a conta \"([^\"]*)\"$")
 	public void informoAConta(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//*[@id='nome']")).sendKeys(arg1);
+		driver.findElement(By.id("nome")).sendKeys(arg1);
 	}
 
-	@Quando("^seleciono Salvar$")
+	@Quando("^seleciono salvar$")
 	public void selecionoSalvar() throws Throwable {
 		driver.findElement(By.tagName("button")).click();		
 	}
@@ -82,19 +89,46 @@ public class InserirContasSteps {
 	
 	@Então("^recebo a mensagem \"([^\"]*)\"$")
 	public void receboAMensagem(String arg1) throws Throwable {
-		String texto = driver.findElement(By.xpath("//div[stars-with(@class, 'alert alert-']")).getText();
+		String texto = driver.findElement(By.xpath("//div[starts-with(@class, 'alert alert-')]")).getText();
 		Assert.assertEquals(arg1, texto);		
 	}
 
 	
-	@Before // cucumber.api
-	public void inicia() {
+	@Before(order = 10) // cucumber.api
+	public void inicio() {
 		System.out.println("Começando driver.");
 	}
 	
-	@After // cucumber.api
+	@Before(order = 0) // cucumber.api
+	public void inicio2() {
+		System.out.println("Começando driver, parte 2");
+	}
+
+	// Desta forma as imagens terão o nome do cenário
+	@After(order = 1) // order -> permite que a screenshot seja a primeira executada
+	public void sreenshot(Scenario cenario) {
+		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(file, new File("target/screenshots/"+cenario.getId()+".jpg"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@After(order = 0) // cucumber.api
 	public void fecharBrowser() {
 		driver.quit();
 		System.out.println("Terminando driver.");
 	}
+	
+	// Desta forma abaixo cada imagem salvo iria sobrepor a outra	
+	/*	@After
+		public void sreenshot() {
+			File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			try {
+				FileUtils.copyFile(file, new File("target/screenshots/nome.jpg"));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} */
 }
