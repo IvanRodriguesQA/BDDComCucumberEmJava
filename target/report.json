@@ -9,167 +9,214 @@
     "line": 2,
     "elements": [
       {
-        "line": 8,
-        "name": "Deve inserir uma conta com sucesso",
+        "comments": [
+          {
+            "line": 8,
+            "value": "#Background"
+          }
+        ],
+        "line": 9,
+        "name": "# Define os passos que são sempre executados nos cenários",
         "description": "",
-        "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
-        "type": "scenario",
-        "keyword": "Cenário",
+        "type": "background",
+        "keyword": "Contexto",
         "steps": [
           {
             "result": {
-              "duration": 13400103272,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "que estou acessando a aplicação",
-            "match": {
-              "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
-            },
-            "keyword": "Dado "
-          },
-          {
-            "result": {
-              "duration": 229922843,
+              "duration": 15667212607,
               "status": "passed"
             },
             "line": 10,
-            "name": "informo o usuário \"ivan.assis@teste\"",
+            "name": "que estou acessando a aplicação",
             "match": {
-              "arguments": [
-                {
-                  "val": "ivan.assis@teste",
-                  "offset": 19
-                }
-              ],
-              "location": "InserirContasSteps.informoOUsuário(String)"
+              "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
             },
-            "keyword": "Quando "
+            "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 716588620,
+              "duration": 726645109,
               "status": "passed"
             },
             "line": 11,
-            "name": "a senha \"teste\"",
+            "name": "informo o usuário \"ivan.assis@teste\"",
             "match": {
               "arguments": [
                 {
-                  "val": "teste",
-                  "offset": 9
+                  "val": "ivan.assis@teste",
+                  "offset": 19
                 }
               ],
-              "location": "InserirContasSteps.aSenha(String)"
+              "location": "InserirContasSteps.informoOUsuário(String)"
             },
-            "keyword": "E "
+            "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 887690601,
+              "duration": 172171410,
               "status": "passed"
             },
             "line": 12,
-            "name": "seleciono entrar",
+            "name": "a senha \"teste\"",
             "match": {
-              "location": "InserirContasSteps.selecionoEntrar()"
+              "arguments": [
+                {
+                  "val": "teste",
+                  "offset": 9
+                }
+              ],
+              "location": "InserirContasSteps.aSenha(String)"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 113017873,
+              "duration": 1954318060,
               "status": "passed"
             },
             "line": 13,
-            "name": "visualizo a página inicial",
+            "name": "seleciono entrar",
             "match": {
-              "location": "InserirContasSteps.visualizoAPáginaInicial()"
+              "location": "InserirContasSteps.selecionoEntrar()"
             },
-            "keyword": "Então "
+            "keyword": "E "
           },
           {
             "result": {
-              "duration": 272850590,
+              "duration": 86968733,
               "status": "passed"
             },
             "line": 14,
-            "name": "seleciono Contas",
+            "name": "visualizo a página inicial",
             "match": {
-              "location": "InserirContasSteps.selecionoContas()"
+              "location": "InserirContasSteps.visualizoAPáginaInicial()"
             },
-            "keyword": "Quando "
+            "keyword": "Então "
           },
           {
             "result": {
-              "duration": 523403034,
+              "duration": 286917731,
               "status": "passed"
             },
             "line": 15,
-            "name": "seleciono Adicionar",
+            "name": "seleciono Contas",
             "match": {
-              "location": "InserirContasSteps.selecionoAdicionar()"
+              "location": "InserirContasSteps.selecionoContas()"
             },
-            "keyword": "E "
+            "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 109681270,
+              "duration": 710164523,
               "status": "passed"
             },
             "line": 16,
-            "name": "informo a conta \"Conta de Teste\"",
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "InserirContasSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 338389,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicia()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3158799707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 216280868,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "informo a conta \"\u003c\u003e\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Conta de Teste",
+                  "val": "\u003c\u003e",
                   "offset": 17
                 }
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "seleciono salvar",
+            "match": {},
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 611781823,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 17,
-            "name": "seleciono Salvar",
+            "line": 21,
+            "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
             "match": {
-              "location": "InserirContasSteps.selecionoSalvar()"
+              "arguments": [
+                {
+                  "val": "Conta adicionada com sucesso!",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 75318594,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "a conta é inserida com sucesso",
-            "match": {
-              "location": "InserirContasSteps.aContaÉInseridaComSucesso()"
-            },
+            "matchedColumns": [
+              1
+            ],
             "keyword": "Então "
           }
         ]
       },
       {
-        "line": 21,
-        "name": "Não deve inserir uma conta sem nome",
+        "comments": [
+          {
+            "line": 8,
+            "value": "#Background"
+          }
+        ],
+        "line": 9,
+        "name": "# Define os passos que são sempre executados nos cenários",
         "description": "",
-        "id": "cadastro-de-contas;não-deve-inserir-uma-conta-sem-nome",
-        "type": "scenario",
-        "keyword": "Cenário",
+        "type": "background",
+        "keyword": "Contexto",
         "steps": [
           {
             "result": {
-              "duration": 11645033273,
+              "duration": 15332876623,
               "status": "passed"
             },
-            "line": 22,
+            "line": 10,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
@@ -178,10 +225,10 @@
           },
           {
             "result": {
-              "duration": 106813244,
+              "duration": 454584284,
               "status": "passed"
             },
-            "line": 23,
+            "line": 11,
             "name": "informo o usuário \"ivan.assis@teste\"",
             "match": {
               "arguments": [
@@ -196,10 +243,10 @@
           },
           {
             "result": {
-              "duration": 65431170,
+              "duration": 925787631,
               "status": "passed"
             },
-            "line": 24,
+            "line": 12,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -214,10 +261,10 @@
           },
           {
             "result": {
-              "duration": 1657331361,
+              "duration": 858193826,
               "status": "passed"
             },
-            "line": 25,
+            "line": 13,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -226,10 +273,10 @@
           },
           {
             "result": {
-              "duration": 60087630,
+              "duration": 72709126,
               "status": "passed"
             },
-            "line": 26,
+            "line": 14,
             "name": "visualizo a página inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPáginaInicial()"
@@ -238,10 +285,10 @@
           },
           {
             "result": {
-              "duration": 294493897,
+              "duration": 270106071,
               "status": "passed"
             },
-            "line": 27,
+            "line": 15,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -250,56 +297,116 @@
           },
           {
             "result": {
-              "duration": 597446569,
+              "duration": 709170812,
               "status": "passed"
             },
-            "line": 28,
+            "line": 16,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
             },
             "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 153104,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.inicia()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2099130722,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 180015779,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "informo a conta \"\u003c\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003c\u003e",
+                  "offset": 17
+                }
+              ],
+              "location": "InserirContasSteps.informoAConta(String)"
+            },
+            "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 552543093,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 29,
-            "name": "seleciono Salvar",
-            "match": {
-              "location": "InserirContasSteps.selecionoSalvar()"
-            },
+            "line": 20,
+            "name": "seleciono salvar",
+            "match": {},
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 73995265,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 30,
-            "name": "sou notificar que o nome da conta é obrigatório",
+            "line": 21,
+            "name": "recebo a mensagem \"Informe o nome da conta\"",
             "match": {
-              "location": "InserirContasSteps.souNotificarQueONomeDaContaÉObrigatório()"
+              "arguments": [
+                {
+                  "val": "Informe o nome da conta",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
             },
+            "matchedColumns": [
+              1
+            ],
             "keyword": "Então "
           }
         ]
       },
       {
-        "line": 33,
-        "name": "Não deve inserir uma conta com nome já existente",
+        "comments": [
+          {
+            "line": 8,
+            "value": "#Background"
+          }
+        ],
+        "line": 9,
+        "name": "# Define os passos que são sempre executados nos cenários",
         "description": "",
-        "id": "cadastro-de-contas;não-deve-inserir-uma-conta-com-nome-já-existente",
-        "type": "scenario",
-        "keyword": "Cenário",
+        "type": "background",
+        "keyword": "Contexto",
         "steps": [
           {
             "result": {
-              "duration": 14491790873,
+              "duration": 14746001996,
               "status": "passed"
             },
-            "line": 34,
+            "line": 10,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
@@ -308,10 +415,10 @@
           },
           {
             "result": {
-              "duration": 220631745,
+              "duration": 205216934,
               "status": "passed"
             },
-            "line": 35,
+            "line": 11,
             "name": "informo o usuário \"ivan.assis@teste\"",
             "match": {
               "arguments": [
@@ -326,10 +433,10 @@
           },
           {
             "result": {
-              "duration": 48717433,
+              "duration": 754743045,
               "status": "passed"
             },
-            "line": 36,
+            "line": 12,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -344,10 +451,10 @@
           },
           {
             "result": {
-              "duration": 1929333050,
+              "duration": 833962976,
               "status": "passed"
             },
-            "line": 37,
+            "line": 13,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -356,10 +463,10 @@
           },
           {
             "result": {
-              "duration": 64517419,
+              "duration": 82909048,
               "status": "passed"
             },
-            "line": 38,
+            "line": 14,
             "name": "visualizo a página inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPáginaInicial()"
@@ -368,10 +475,10 @@
           },
           {
             "result": {
-              "duration": 258509972,
+              "duration": 277005487,
               "status": "passed"
             },
-            "line": 39,
+            "line": 15,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -380,56 +487,93 @@
           },
           {
             "result": {
-              "duration": 480822454,
+              "duration": 677283804,
               "status": "passed"
             },
-            "line": 40,
+            "line": 16,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
             },
             "keyword": "E "
-          },
+          }
+        ]
+      },
+      {
+        "before": [
           {
             "result": {
-              "duration": 140573255,
+              "duration": 109708,
               "status": "passed"
             },
-            "line": 41,
-            "name": "informo a conta \"Conta de Teste\"",
+            "match": {
+              "location": "InserirContasSteps.inicia()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2107790344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 95198299,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "informo a conta \"\u003c\u003e\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Conta de Teste",
+                  "val": "\u003c\u003e",
                   "offset": 17
                 }
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "seleciono salvar",
+            "match": {},
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 436452405,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 42,
-            "name": "seleciono Salvar",
+            "line": 21,
+            "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
             "match": {
-              "location": "InserirContasSteps.selecionoSalvar()"
+              "arguments": [
+                {
+                  "val": "Já existe uma conta com esse nome!",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 55470606,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "sou notificado que já existe uma conta com esse nome",
-            "match": {
-              "location": "InserirContasSteps.souNotificadoQueJáExisteUmaContaComEsseNome()"
-            },
+            "matchedColumns": [
+              1
+            ],
             "keyword": "Então "
           }
         ]
