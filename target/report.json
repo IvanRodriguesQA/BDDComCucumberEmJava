@@ -6,16 +6,16 @@
         "value": "#language: pt"
       }
     ],
-    "line": 2,
+    "line": 3,
     "elements": [
       {
         "comments": [
           {
-            "line": 8,
+            "line": 9,
             "value": "#Background"
           }
         ],
-        "line": 9,
+        "line": 10,
         "name": "# Define os passos que são sempre executados nos cenários",
         "description": "",
         "type": "background",
@@ -23,10 +23,10 @@
         "steps": [
           {
             "result": {
-              "duration": 12814895232,
+              "duration": 11629587769,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 211843787,
+              "duration": 381715627,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "informo o usuário \"ivan.assis@teste\"",
             "match": {
               "arguments": [
@@ -53,10 +53,10 @@
           },
           {
             "result": {
-              "duration": 95872638,
+              "duration": 902094605,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -71,10 +71,10 @@
           },
           {
             "result": {
-              "duration": 1445798377,
+              "duration": 895118602,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -83,10 +83,10 @@
           },
           {
             "result": {
-              "duration": 64057793,
+              "duration": 44202804,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "visualizo a página inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPáginaInicial()"
@@ -95,10 +95,10 @@
           },
           {
             "result": {
-              "duration": 268231769,
+              "duration": 266090104,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -107,10 +107,10 @@
           },
           {
             "result": {
-              "duration": 572151809,
+              "duration": 456752880,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -123,7 +123,7 @@
         "before": [
           {
             "result": {
-              "duration": 311571,
+              "duration": 343265,
               "status": "passed"
             },
             "match": {
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 164805,
+              "duration": 98007,
               "status": "passed"
             },
             "match": {
@@ -140,14 +140,14 @@
             }
           }
         ],
-        "line": 25,
+        "line": 26,
         "name": "Deve validar regras cadastro contas",
         "description": "",
         "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;2",
         "after": [
           {
             "result": {
-              "duration": 126708397,
+              "duration": 278077106,
               "status": "passed"
             },
             "match": {
@@ -156,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 1780462022,
+              "duration": 1988400634,
               "status": "passed"
             },
             "match": {
@@ -169,10 +169,10 @@
         "steps": [
           {
             "result": {
-              "duration": 90608601,
+              "duration": 102537535,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "informo a conta \"Conta de Teste\"",
             "match": {
               "arguments": [
@@ -190,10 +190,10 @@
           },
           {
             "result": {
-              "duration": 472358450,
+              "duration": 524402600,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "seleciono salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -202,10 +202,10 @@
           },
           {
             "result": {
-              "duration": 39182349,
+              "duration": 43240294,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
             "match": {
               "arguments": [
@@ -221,16 +221,22 @@
             ],
             "keyword": "Então "
           }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
         ]
       },
       {
         "comments": [
           {
-            "line": 8,
+            "line": 9,
             "value": "#Background"
           }
         ],
-        "line": 9,
+        "line": 10,
         "name": "# Define os passos que são sempre executados nos cenários",
         "description": "",
         "type": "background",
@@ -238,10 +244,10 @@
         "steps": [
           {
             "result": {
-              "duration": 10206181877,
+              "duration": 10017866895,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
@@ -250,10 +256,10 @@
           },
           {
             "result": {
-              "duration": 142623865,
+              "duration": 164788618,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "informo o usuário \"ivan.assis@teste\"",
             "match": {
               "arguments": [
@@ -268,10 +274,10 @@
           },
           {
             "result": {
-              "duration": 935180101,
+              "duration": 93504863,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -286,10 +292,10 @@
           },
           {
             "result": {
-              "duration": 796520841,
+              "duration": 1696091644,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -298,10 +304,10 @@
           },
           {
             "result": {
-              "duration": 75074431,
+              "duration": 69103237,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "visualizo a página inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPáginaInicial()"
@@ -310,10 +316,10 @@
           },
           {
             "result": {
-              "duration": 259457076,
+              "duration": 257073521,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -322,10 +328,10 @@
           },
           {
             "result": {
-              "duration": 427407897,
+              "duration": 530280542,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -338,7 +344,7 @@
         "before": [
           {
             "result": {
-              "duration": 141401,
+              "duration": 156030,
               "status": "passed"
             },
             "match": {
@@ -347,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 142376,
+              "duration": 173583,
               "status": "passed"
             },
             "match": {
@@ -355,14 +361,14 @@
             }
           }
         ],
-        "line": 26,
+        "line": 27,
         "name": "Deve validar regras cadastro contas",
         "description": "",
         "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;3",
         "after": [
           {
             "result": {
-              "duration": 97353452,
+              "duration": 101779814,
               "status": "passed"
             },
             "match": {
@@ -371,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 1990012180,
+              "duration": 1811117428,
               "status": "passed"
             },
             "match": {
@@ -384,10 +390,10 @@
         "steps": [
           {
             "result": {
-              "duration": 74114364,
+              "duration": 54968385,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "informo a conta \"\"",
             "match": {
               "arguments": [
@@ -405,10 +411,10 @@
           },
           {
             "result": {
-              "duration": 413067836,
+              "duration": 419884948,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "seleciono salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -417,10 +423,10 @@
           },
           {
             "result": {
-              "duration": 45976933,
+              "duration": 58789656,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "recebo a mensagem \"Informe o nome da conta\"",
             "match": {
               "arguments": [
@@ -436,16 +442,22 @@
             ],
             "keyword": "Então "
           }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
         ]
       },
       {
         "comments": [
           {
-            "line": 8,
+            "line": 9,
             "value": "#Background"
           }
         ],
-        "line": 9,
+        "line": 10,
         "name": "# Define os passos que são sempre executados nos cenários",
         "description": "",
         "type": "background",
@@ -453,10 +465,10 @@
         "steps": [
           {
             "result": {
-              "duration": 10749732556,
+              "duration": 9861325436,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "InserirContasSteps.queEstouAcessandoAAplicação()"
@@ -465,10 +477,10 @@
           },
           {
             "result": {
-              "duration": 175796651,
+              "duration": 100313133,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "informo o usuário \"ivan.assis@teste\"",
             "match": {
               "arguments": [
@@ -483,10 +495,10 @@
           },
           {
             "result": {
-              "duration": 913009325,
+              "duration": 55240462,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "a senha \"teste\"",
             "match": {
               "arguments": [
@@ -501,10 +513,10 @@
           },
           {
             "result": {
-              "duration": 839461543,
+              "duration": 1441905165,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "seleciono entrar",
             "match": {
               "location": "InserirContasSteps.selecionoEntrar()"
@@ -513,10 +525,10 @@
           },
           {
             "result": {
-              "duration": 65397206,
+              "duration": 123646439,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "visualizo a página inicial",
             "match": {
               "location": "InserirContasSteps.visualizoAPáginaInicial()"
@@ -525,10 +537,10 @@
           },
           {
             "result": {
-              "duration": 267744666,
+              "duration": 259204306,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "seleciono Contas",
             "match": {
               "location": "InserirContasSteps.selecionoContas()"
@@ -537,10 +549,10 @@
           },
           {
             "result": {
-              "duration": 479360748,
+              "duration": 503586739,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "seleciono Adicionar",
             "match": {
               "location": "InserirContasSteps.selecionoAdicionar()"
@@ -553,7 +565,7 @@
         "before": [
           {
             "result": {
-              "duration": 162367,
+              "duration": 135551,
               "status": "passed"
             },
             "match": {
@@ -562,7 +574,7 @@
           },
           {
             "result": {
-              "duration": 117022,
+              "duration": 96544,
               "status": "passed"
             },
             "match": {
@@ -570,14 +582,14 @@
             }
           }
         ],
-        "line": 27,
+        "line": 28,
         "name": "Deve validar regras cadastro contas",
         "description": "",
         "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;4",
         "after": [
           {
             "result": {
-              "duration": 115780502,
+              "duration": 101888548,
               "status": "passed"
             },
             "match": {
@@ -586,7 +598,7 @@
           },
           {
             "result": {
-              "duration": 1664890697,
+              "duration": 1964048744,
               "status": "passed"
             },
             "match": {
@@ -599,10 +611,10 @@
         "steps": [
           {
             "result": {
-              "duration": 82224469,
+              "duration": 91230238,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "informo a conta \"Conta mesmo nome\"",
             "match": {
               "arguments": [
@@ -620,10 +632,10 @@
           },
           {
             "result": {
-              "duration": 451346678,
+              "duration": 477853983,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "seleciono salvar",
             "match": {
               "location": "InserirContasSteps.selecionoSalvar()"
@@ -632,10 +644,10 @@
           },
           {
             "result": {
-              "duration": 35313312,
+              "duration": 73724163,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
             "match": {
               "arguments": [
@@ -651,6 +663,12 @@
             ],
             "keyword": "Então "
           }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
         ]
       }
     ],
@@ -658,6 +676,12 @@
     "description": "\nComo um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
     "id": "cadastro-de-contas",
     "keyword": "Funcionalidade",
-    "uri": "src/test/resources/features/inserir_conta.feature"
+    "uri": "inserir_conta.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@funcionais"
+      }
+    ]
   }
 ]

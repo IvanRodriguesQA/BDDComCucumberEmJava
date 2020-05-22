@@ -1,7 +1,5 @@
 package br.bh.ivanrodriassis.servicos;
 
-import java.util.Calendar;
-
 import br.bh.ivanrodriassis.entidades.Filme;
 import br.bh.ivanrodriassis.entidades.NotaAluguel;
 import br.bh.ivanrodriassis.entidades.TipoAluguel;

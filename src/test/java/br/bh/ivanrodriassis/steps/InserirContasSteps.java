@@ -105,7 +105,9 @@ public class InserirContasSteps {
 	}
 
 	// Desta forma as imagens terão o nome do cenário
-	@After(order = 1) // order -> permite que a screenshot seja a primeira executada
+	// order -> permite que a screenshot seja a primeira executada
+	// value -> define em quais testes ele não deve ser executado
+	@After(order = 1, value = {"@funcionais"}) 
 	public void sreenshot(Scenario cenario) {
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
@@ -115,7 +117,7 @@ public class InserirContasSteps {
 		}
 	}
 	
-	@After(order = 0) // cucumber.api
+	@After(order = 0, value = {"@funcionais"}) 
 	public void fecharBrowser() {
 		driver.quit();
 		System.out.println("Terminando driver.");
