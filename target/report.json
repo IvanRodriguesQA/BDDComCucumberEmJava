@@ -1,15 +1,5 @@
 [
   {
-    "comments": [
-      {
-        "line": 1,
-        "value": "#language: pt"
-      },
-      {
-        "line": 3,
-        "value": "# Cenário Declarativo - Não diz como deve interagir com a aplicação. O foco é no negócio"
-      }
-    ],
     "line": 6,
     "elements": [
       {
@@ -21,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21094935462,
+              "duration": 28877499405,
               "status": "passed"
             },
             "line": 13,
@@ -34,6 +24,7 @@
         ]
       },
       {
+        "start_timestamp": "2020-05-23T16:03:16.732Z",
         "line": 21,
         "name": "Deve validar regras cadastro contas",
         "description": "",
@@ -41,7 +32,7 @@
         "after": [
           {
             "result": {
-              "duration": 378285406,
+              "duration": 331400350,
               "status": "passed"
             },
             "match": {
@@ -50,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 2378167896,
+              "duration": 3885758754,
               "status": "passed"
             },
             "match": {
@@ -63,7 +54,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1663687145,
+              "duration": 1338749361,
               "status": "passed"
             },
             "line": 16,
@@ -77,14 +68,11 @@
               ],
               "location": "InserirContasSteps.adicionoAConta(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 77536657,
+              "duration": 79015529,
               "status": "passed"
             },
             "line": 17,
@@ -98,15 +86,11 @@
               ],
               "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Então "
           }
         ],
         "tags": [
           {
-            "line": 5,
             "name": "@funcionais"
           }
         ]
@@ -120,7 +104,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17713181314,
+              "duration": 30212682507,
               "status": "passed"
             },
             "line": 13,
@@ -133,6 +117,7 @@
         ]
       },
       {
+        "start_timestamp": "2020-05-23T16:03:51.346Z",
         "line": 22,
         "name": "Deve validar regras cadastro contas",
         "description": "",
@@ -140,7 +125,7 @@
         "after": [
           {
             "result": {
-              "duration": 151218399,
+              "duration": 180245825,
               "status": "passed"
             },
             "match": {
@@ -149,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 2242328201,
+              "duration": 4380258697,
               "status": "passed"
             },
             "match": {
@@ -162,7 +147,7 @@
         "steps": [
           {
             "result": {
-              "duration": 787374543,
+              "duration": 1420678749,
               "status": "passed"
             },
             "line": 16,
@@ -176,14 +161,11 @@
               ],
               "location": "InserirContasSteps.adicionoAConta(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 125751870,
+              "duration": 192530748,
               "status": "passed"
             },
             "line": 17,
@@ -197,15 +179,11 @@
               ],
               "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Então "
           }
         ],
         "tags": [
           {
-            "line": 5,
             "name": "@funcionais"
           }
         ]
@@ -219,7 +197,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17049952020,
+              "duration": 17821948834,
               "status": "passed"
             },
             "line": 13,
@@ -232,6 +210,7 @@
         ]
       },
       {
+        "start_timestamp": "2020-05-23T16:04:27.748Z",
         "line": 23,
         "name": "Deve validar regras cadastro contas",
         "description": "",
@@ -239,7 +218,7 @@
         "after": [
           {
             "result": {
-              "duration": 139344518,
+              "duration": 127567181,
               "status": "passed"
             },
             "match": {
@@ -248,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 2487862818,
+              "duration": 2144656364,
               "status": "passed"
             },
             "match": {
@@ -261,7 +240,7 @@
         "steps": [
           {
             "result": {
-              "duration": 978156292,
+              "duration": 767420746,
               "status": "passed"
             },
             "line": 16,
@@ -275,14 +254,11 @@
               ],
               "location": "InserirContasSteps.adicionoAConta(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 147827185,
+              "duration": 68755096,
               "status": "passed"
             },
             "line": 17,
@@ -296,29 +272,29 @@
               ],
               "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Então "
           }
         ],
         "tags": [
           {
-            "line": 5,
             "name": "@funcionais"
           }
         ]
       }
     ],
     "name": "Cadastro de contas",
-    "description": "\nComo um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "description": "\tComo um usuário \n\tGostaria de cadastrar contas\n\tPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
     "id": "cadastro-de-contas",
     "keyword": "Funcionalidade",
-    "uri": "inserir_conta.feature",
+    "uri": "file:src/test/resources/features/inserir_conta.feature",
     "tags": [
       {
-        "line": 5,
-        "name": "@funcionais"
+        "name": "@funcionais",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
       }
     ]
   }

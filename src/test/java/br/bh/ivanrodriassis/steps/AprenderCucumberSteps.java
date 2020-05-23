@@ -6,11 +6,9 @@ import java.util.Date;
 
 import org.junit.Assert;
 
-import br.bh.ivanrodriassis.converters.DateConverter;
-import cucumber.api.Transform;
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.Então;
-import cucumber.api.java.pt.Quando;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
 
 
 
@@ -65,8 +63,8 @@ public class AprenderCucumberSteps {
 	    entrega = cal.getTime(); // Passa para a entrega o valor do calendário
 	} */
 	
-	@Dado("^que o prazo é (.*)$")
-	public void queOPrazoÉ(@Transform(DateConverter.class) Date data) throws Throwable {
+	@Dado("que o prazo é {data}")
+	public void queOPrazoÉ(Date data) throws Throwable {
 	    entrega = data;
 	    System.out.println(entrega);
 	}

@@ -12,10 +12,11 @@ import br.bh.ivanrodriassis.entidades.NotaAluguel;
 import br.bh.ivanrodriassis.entidades.TipoAluguel;
 import br.bh.ivanrodriassis.servicos.AluguelService;
 import br.bh.ivanrodriassis.utils.DateUtils;
-import cucumber.api.DataTable;
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.Então;
-import cucumber.api.java.pt.Quando;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
 
 
 public class AlugarFilmeSteps {

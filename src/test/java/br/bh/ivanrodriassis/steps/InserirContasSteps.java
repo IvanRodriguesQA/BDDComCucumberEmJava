@@ -11,12 +11,13 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.Então;
-import cucumber.api.java.pt.Quando;
+import io.cucumber.core.api.Scenario;
+import io.cucumber.java.After;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
+
 
 public class InserirContasSteps {
 
@@ -48,7 +49,7 @@ public class InserirContasSteps {
 	// Desta forma as imagens terão o nome do cenário
 		// order -> permite que a screenshot seja a primeira executada
 		// value -> define em quais testes ele não deve ser executado
-		@After(order = 1, value = {"@funcionais"}) 
+		@After(order = 1, value = "@funcionais") 
 		public void sreenshot(Scenario cenario) {
 			File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			try {
@@ -58,7 +59,7 @@ public class InserirContasSteps {
 			}
 		}
 		
-		@After(order = 0, value = {"@funcionais"}) 
+		@After(order = 0, value = "@funcionais") 
 		public void fecharBrowser() {
 			driver.quit();
 			System.out.println("Terminando driver.");
